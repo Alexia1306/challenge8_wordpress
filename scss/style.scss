@@ -1,0 +1,157 @@
+/*
+Theme Name: themeAlex
+*/
+@import "header";
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    color: white;
+
+    a {
+        color: white;
+    }
+}
+
+.our-service {
+    .block-p {
+        margin-bottom: 4rem;
+
+        p {
+            color: grey;
+            width: auto;
+        }
+    }
+
+    .emo {
+        color: #ed6d6d;
+        margin-top: 2rem;
+    }
+
+    p {
+        width: 80%;
+        color: grey;
+    }
+
+    ul {
+        display: contents;
+
+        li {
+            list-style-type: none;
+            color: grey;
+
+            i {
+                color: #ff8f8f;
+            }
+        }
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        background: #ff8f8f;
+        margin: auto;
+        margin-top: 2rem;
+        a {
+            color: white;
+        }
+    }
+
+    .one {
+        margin: 4rem;
+        @media screen and (max-width: 676px) {
+            margin: 0;
+            padding: 1rem;
+        }
+    }
+}
+
+.our-product {
+    background: linear-gradient(-90deg, rgba(246, 135, 146, 0.7), rgba(227, 95, 156, 0.9));
+
+    .tow {
+        padding: 4rem;
+
+        .block-p {
+            color: grey;
+
+            p {
+                width: 80%;
+            }
+        }
+    }
+
+    .cont {
+        img {
+            padding: 2rem;
+        }
+    }
+
+    .text {
+        margin: 2rem;
+
+        h4 {
+            color: white;
+        }
+
+        p {
+            color: grey;
+        }
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        background: #ff8f8f;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+
+        a {
+            color: white;
+        }
+    }
+}
+
+.more-benfits {
+    background: #f5f5f5;
+
+    .block-art {
+        margin: 5rem;
+        text-align: center;
+    }
+
+    .benfits {
+        padding: 1.5rem;
+
+        h4 {
+            color: #ff8f8f;
+        }
+
+        p {
+            color: grey;
+        }
+    }
+}
+
+footer {
+    margin-top: 5rem;
+    padding: 3rem;
+
+    .symbole {
+        i {
+            margin: 2rem;
+        }
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+    }
+
+
+
+}
